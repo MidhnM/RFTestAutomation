@@ -41,7 +41,7 @@ class IndustrialUI(QMainWindow):
         self.header_frame = QFrame()
         self.header_frame.setStyleSheet("background-color: #252526; border-bottom: 2px solid #333;")
         header_layout = QHBoxLayout(self.header_frame)
-        self.company_label = QLabel("<b>PHILIPS</b> | Industrial Test System")
+        self.company_label = QLabel("<b>COMPANY</b> | Industrial Test System")
         self.datetime_label = QLabel("")
         self.user_info_label = QLabel("")
         self.logout_btn = QPushButton("Logout")
